@@ -84,11 +84,11 @@ def main():
     """, unsafe_allow_html=True)
 
     # Add logo in top right corner
-    st.markdown("""
-        <div class="logo-container">
-            <img src="attached_assets/c-star@1500x%20white.png" class="logo-image">
-        </div>
-    """, unsafe_allow_html=True)
+    # st.markdown("""
+    #     <div class="logo-container">
+    #         <img src="attached_assets/c-star@1500x%20white.png" class="logo-image">
+    #     </div>
+    # """, unsafe_allow_html=True)
 
     # Simple header with just COIQ
     st.markdown("<h1 class='main-header' style='text-align: center;'>C O I Q</h1>", unsafe_allow_html=True)
